@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ozgoygoy.sorsolbackend.SorSolApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-01-29T11:55:27" hostname="EVT02417NB" time="0.888">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.ozgoygoy.sorsolbackend.SorSolApplicationTests" time="0.888"/>
+  <system-out><![CDATA[14:55:25.665 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.ozgoygoy.sorsolbackend.SorSolApplicationTests]: SorSolApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:55:25.812 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.ozgoygoy.sorsolbackend.SorSolApplication for test class com.ozgoygoy.sorsolbackend.SorSolApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.1)
+
+2025-01-29T14:55:26.231+03:00  INFO 38024 --- [sorsolbackend] [    Test worker] c.o.s.SorSolApplicationTests             : Starting SorSolApplicationTests using Java 21.0.3 with PID 38024 (started by z003ph9j in D:\Repositories\Personal\sorsolbackend)
+2025-01-29T14:55:26.233+03:00  INFO 38024 --- [sorsolbackend] [    Test worker] c.o.s.SorSolApplicationTests             : No active profile set, falling back to 1 default profile: "default"
+2025-01-29T14:55:27.371+03:00  INFO 38024 --- [sorsolbackend] [    Test worker] c.o.s.SorSolApplicationTests             : Started SorSolApplicationTests in 1.398 seconds (process running for 7.513)
+]]></system-out>
+  <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build what is described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (C:\Users\z003ph9j\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.15.11\a38b16385e867f59a641330f0362ebe742788ed8\byte-buddy-agent-1.15.11.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
